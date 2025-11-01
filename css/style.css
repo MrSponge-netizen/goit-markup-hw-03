@@ -47,17 +47,41 @@ img{
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+
 }
-.logo .navy-color-highlight {
+.navigation .accent {
   color: #2e2f42;
 }
 
-.logo .cloud-color-highlight {
+.footer .accent {
   color: #f4f4fd;
 }
 
 /* Header Navigation Styles*/
+.navigation{
+  border-bottom: 1px solid #e7e9fc;
+
+}
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list{
+  display:flex;
+  
+  gap: 40px;
+}
+.nav-page .logo{
+
+  margin-right: 76px;
+}
 .navigation-link {
+  
   font-weight: 500;
 
   
@@ -81,11 +105,22 @@ img{
   
   font-style: normal;
 }
+.contact-list{
+  display:flex;
+  justify-content: space-between;
+  gap: 40px;
+
+}
 
 .contact-link {
-  color: #434455;
-  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contact-link:hover,
 .contact-link:focus {
